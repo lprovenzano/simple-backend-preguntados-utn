@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    container_name: preguntados_game_app_utn
+    build: .
+    ports:
+      - 8080:8080
+    restart: on-failure
