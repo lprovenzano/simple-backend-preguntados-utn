@@ -12,12 +12,12 @@ type question struct {
 	ID       int64    `json:"id"`
 	Title    string   `json:"title"`
 	Options  []answer `json:"options"`
-	UrlImage string   `json:"url_image"`
+	UrlImage string   `json:"urlImage"`
 }
 
 type answer struct {
 	Title   string `json:"title"`
-	IsRight bool   `json:"right"`
+	IsRight bool   `json:"isRight"`
 }
 
 var questions = []question{
