@@ -162,7 +162,7 @@ func main() {
 
 	router := gin.Default()
 	router.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:4200", "https://tp-sala-juegos-provenzano-luca.herokuapp.com/"},
+		AllowOrigins:     []string{"http://localhost:4200", "https://tp-sala-juegos-provenzano-luca.herokuapp.com"},
 		AllowMethods:     []string{"GET"},
 		ExposeHeaders:    []string{"Content-Length"},
 		AllowCredentials: true,
